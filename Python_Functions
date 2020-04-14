@@ -1,0 +1,47 @@
+# Funtions
+
+# 1st Method
+def test(name):
+	print("Hello ",name)
+test("Karan")
+
+# 2nd Method
+def test(name):
+	print("Hello ",name)
+name="Karan"
+test(name)
+
+# 3rd Method
+def test(name):
+	print("Hello ",name)
+
+test(input("enter your name : "))
+
+# 4th Method
+def test(name):
+	print("Hello ",name)
+name=input('what is your name')
+test(name)
+
+
+# 5th Method
+def test(name,greeting):
+        print(greeting," ",name)
+
+test(input('enter your name : '),'Welcome')
+
+
+# 6th Method
+def test(name='user',greeting='Welcome'):
+        print(greeting,' ',name)
+
+test(name='Karan',greeting="hii")
+
+# 7th Method
+def cube(base_number):
+        cubed_value=base_number * base_number * base_number
+        return cubed_value
+
+eleven_cubed=cube(11)
+print(eleven_cubed)
+        
